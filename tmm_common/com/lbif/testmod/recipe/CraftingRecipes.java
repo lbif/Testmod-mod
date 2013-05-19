@@ -6,8 +6,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 
 public class CraftingRecipes {
-		public static void initRecipes(){
-			RecipeHandler.addRecipe(new ItemStack(Item.diamond, 1), new Object[] { "ccc", "ccc", "bbb", Character.valueOf('c'), Item.ingotIron, Character.valueOf('b'), Item.ingotGold});
-			}
+	public static void initRecipes(){
+		RecipeHandler.addRecipe(new ItemStack(Item.diamond, 1), new Object[] { "ccc", "ccc", "bbb", Character.valueOf('c'), Item.ingotIron, Character.valueOf('b'), Item.ingotGold});
+	}
 			
 }
