@@ -34,6 +34,7 @@ public class TestMod {
 	@Init
 	public void init(FMLInitializationEvent event) {
 		SmeltingRecipes.initSmelting();
+		CraftingRecipes.initRecipes();
 	}
 	
 	/**
